@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 :root {
+  --color-012a5f: #0c2649;
   --color-0b203b: #0b203b;
   --color-1a3a63: #1a3a63;
+  --color-febd69: #69c2fe;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
 }
 
 body {
@@ -17,10 +23,13 @@ a {
 }
 /* Header Part*/
 .header-top-strip {
-  background-color: var(--color-0b203b);
+  background-color: var(--color-012a5f);
   border-bottom: 1px solid;
 }
 .header-upper {
   background-color: var(--color-0b203b);
+}
+.header-upper .input-group-text {
+  background-color: var(--color-febd69);
 }
 /* Header Part Ends Here*/
