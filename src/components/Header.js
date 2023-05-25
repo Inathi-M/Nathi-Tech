@@ -49,7 +49,7 @@ const Header = () => {
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
                   <Link>
-                    <img src="/images/compare.svg" alt=""></img>
+                    <img src="/images/compare.svg" alt="compare"></img>
                     <p>
                       Compare <br /> Products
                     </p>
@@ -57,20 +57,26 @@ const Header = () => {
                 </div>
                 <div>
                   <Link>
-                    <img src="" alt=""></img>
-                    <p></p>
+                    <img src="/images/wishlist.svg" alt="wishlist"></img>
+                    <p>
+                      Favorite <br /> wishlist
+                    </p>
                   </Link>
                 </div>
                 <div>
                   <Link>
-                    <img src="" alt=""></img>
-                    <p></p>
+                    <img src="/images/user.svg" alt="user"></img>
+                    <p>
+                      Log in <br /> My Account
+                    </p>
                   </Link>
                 </div>
                 <div>
                   <Link>
-                    <img src="" alt=""></img>
-                    <p></p>
+                    <img src="/images/cart.svg" alt="cart"></img>
+                    <div className="d-flex flex-column">
+                      <span className="badge bg-white text-dark">0</span>
+                    </div>
                   </Link>
                 </div>
               </div>
