@@ -8,6 +8,7 @@
   --color-0b203b: #0b203b;
   --color-1a3a63: #1a3a63;
   --color-febd69: #69c2fe;
+  --color-0676c0: #0676c0;
 }
 .form-control:focus {
   box-shadow: none;
@@ -16,6 +17,13 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  font-size: small;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
 }
 a {
   text-decoration: none;
