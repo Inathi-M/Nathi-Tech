@@ -10,6 +10,7 @@
   --color-febd69: #69c2fe;
   --color-0676c0: #0676c0;
   --color-bf4500: #bf4500;
+  --color-f5f5f7: #f5f5f7;
 }
 .form-control:focus {
   box-shadow: none;
@@ -161,4 +162,17 @@ footer .input-group-text {
 .small-banner {
   width: 49%;
 }
-/*Home Part Ends Here*/
+/* Home Wrapper 2 */
+.home-wrapper-2 {
+  background-color: var(--color-f5f5f7);
+}
+/* Home Wrapper 2 ends Here*/
+/* Categories Section*/
+.categories {
+  background-color: white;
+  box-shadow: 0 0 10px #0b00001a;
+  padding: 15px;
+}
+/* Categories Section ends */
+
+/*Home Page Ends Here*/
