@@ -203,6 +203,20 @@ footer .input-group-text {
 .categories > div:nth-child(7) {
   border-right: 1px solid var(--color-ededed);
 }
-/* Categories Section ends */
+/* Categories Section ends here */
 
 /*Home Page Ends Here*/
+/* Blog Part */
+.blog-card {
+  background-color: white;
+  border-radius: 5px;
+}
+.blog-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 300px;
+}
+.blog-content {
+  padding: 15px;
+}
+/*Blog Part ends here*/

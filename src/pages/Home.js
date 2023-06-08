@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
+import BlogCards from "../components/BlogCards";
 const Home = () => {
   return (
     <>
@@ -232,6 +233,16 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <div className="section blog-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <BlogCards />
+            <BlogCards />
+            <BlogCards />
+            <BlogCards />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
