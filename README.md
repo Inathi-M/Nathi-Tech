@@ -1,2 +1,2 @@
-# Getting Started with Create React App and Redux
+# Nathi Tech Website
 This Website is still in Development. 
