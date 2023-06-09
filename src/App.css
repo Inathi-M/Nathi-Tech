@@ -14,6 +14,12 @@
   --color-ededed: #ededed;
   --color-777777: #777777;
 }
+.section-heading {
+  font-size: 26px;
+
+  line-height: 32px;
+  font-weight: 500;
+}
 .form-control:focus {
   box-shadow: none;
   border-color: inherit;
@@ -233,5 +239,11 @@ footer .input-group-text {
 .blog-content h5 {
   font-size: 18px;
   color: var(--color-012a5f);
+}
+
+.blog-content p.desc {
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--color-777777);
 }
 /*Blog Part ends here*/
